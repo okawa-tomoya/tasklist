@@ -9,7 +9,6 @@
                     <a href="${pageContext.request.contextPath}/show?id=${message.id}">
                         <c:out value="${message.id}" />
                     </a>
-                   <%--  ： <c:out value="${message.content}" />　&gt;　<c:out value="${message.created_at}"></c:out>&gt;　<c:out value="${message.updated_at}"></c:out>--%>
              ： <c:out value="${message.content}" />　&gt;　<c:out value="${message.created_at}"></c:out>&gt;　<c:out value="${message.updated_at}"></c:out>
                 </li>
             </c:forEach>
